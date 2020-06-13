@@ -1,11 +1,41 @@
 /* Give your page a fun background color */
-
+body {
+  background-color: aquamarine;
+}
 /* Make the header and footer a different color from the background */
-
+header, footer {
+  background-color: #00b377;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+  text-align: center;
+}
 /* Make your p tag a different color and italic */
 
-/* Put a border around your image */
+/*I used styling within HTML to just italicize the quote.  If I were to italize it all here I would put "font-style: italic;"*/
+p {
+  color: #ffff66;
+  text-align: center;
+}
 
+
+/* Put a border around your image */
+img  {
+  height 40%;
+  width: 40%;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 50px;
+  border-color: #ffff66;
+
+}
+
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Change the font-family of your list */
+li {
+  font-family: monospace;
+}
